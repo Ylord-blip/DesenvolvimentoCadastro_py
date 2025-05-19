@@ -1,13 +1,4 @@
-#3. Objetivo Geral:
-#Desenvolver uma solução em Python para o Coffee Shops Tia Rosa, que simule
-#funcionalidades de um sistema de gerenciamento ou atendimento, como cadastro de produtos,
-#pedidos, clientes, etc.
-#3.1. Objetivos Específicos:
-#I. Aplicar na prática os conceitos estudados na disciplina.
-#II. Criar um sistema com interface simples (pode ser linha de comando).
-#III. Demonstrar lógica de programação e uso de estruturas como listas, dicionários, funções, classes etc.
-#IV. Produzir documentação explicativa do projeto.
-#V. Compartilhar o código via GitHub, com acesso público.
+
 
 from produtos import listar_produtos, escolher_produto, cadastrar_produtos
 from clientes import cadastrar_cliente, listar_cliente
@@ -18,7 +9,7 @@ from pedidos import cadastrar_pedidos, listar_pedidos
 produtos_lista = [("Café Americano", 15), 
                   ("Cappuccino", 10), 
                   ("Latte", 8),
-                  ('Notebook', 4500)]
+                  ]
 
 # produtos_lista = (nome_cliente)
 clientes_lista = ['Pedro',
